@@ -42,7 +42,119 @@ class Map extends React.Component {
                      <TwitterTimelineEmbed
                         sourceType="profile"
                         screenName="potus"
-                        options={{height: 400, width: 400}}
+                        options={{height: 400}}
+                    />
+                  </div>
+                </CardBody>
+              </Card>
+              <Card>
+                <CardHeader>News</CardHeader>
+                <CardBody>
+                  <div
+                    id="map"
+                    className="map"
+                    style={{ position: "relative", overflow: "hidden" }}
+                  >
+                     <TwitterTimelineEmbed
+                        sourceType="profile"
+                        screenName="cnni"
+                        options={{height: 400}}
+                    />
+                  </div>
+                </CardBody>
+              </Card>
+              <Card>
+                <CardHeader>News</CardHeader>
+                <CardBody>
+                  <div
+                    id="map"
+                    className="map"
+                    style={{ position: "relative", overflow: "hidden" }}
+                  >
+                     <TwitterTimelineEmbed
+                        sourceType="profile"
+                        screenName="TheEconomist"
+                        options={{height: 400}}
+                    />
+                  </div>
+                </CardBody>
+              </Card>
+              <Card>
+                <CardHeader>News</CardHeader>
+                <CardBody>
+                  <div
+                    id="map"
+                    className="map"
+                    style={{ position: "relative", overflow: "hidden" }}
+                  >
+                     <TwitterTimelineEmbed
+                        sourceType="profile"
+                        screenName="guardiannews"
+                        options={{height: 400}}
+                    />
+                  </div>
+                </CardBody>
+              </Card>
+              <Card>
+                <CardHeader>News</CardHeader>
+                <CardBody>
+                  <div
+                    id="map"
+                    className="map"
+                    style={{ position: "relative", overflow: "hidden" }}
+                  >
+                     <TwitterTimelineEmbed
+                        sourceType="profile"
+                        screenName="washingtonposts"
+                        options={{height: 400}}
+                    />
+                  </div>
+                </CardBody>
+              </Card>
+              <Card>
+                <CardHeader>News</CardHeader>
+                <CardBody>
+                  <div
+                    id="map"
+                    className="map"
+                    style={{ position: "relative", overflow: "hidden" }}
+                  >
+                     <TwitterTimelineEmbed
+                        sourceType="profile"
+                        screenName="TheStalwart"
+                        options={{height: 400}}
+                    />
+                  </div>
+                </CardBody>
+              </Card>
+              <Card>
+                <CardHeader>News</CardHeader>
+                <CardBody>
+                  <div
+                    id="map"
+                    className="map"
+                    style={{ position: "relative", overflow: "hidden" }}
+                  >
+                     <TwitterTimelineEmbed
+                        sourceType="profile"
+                        screenName="VitalikButerin"
+                        options={{height: 400}}
+                    />
+                  </div>
+                </CardBody>
+              </Card>
+              <Card>
+                <CardHeader>News</CardHeader>
+                <CardBody>
+                  <div
+                    id="map"
+                    className="map"
+                    style={{ position: "relative", overflow: "hidden" }}
+                  >
+                     <TwitterTimelineEmbed
+                        sourceType="profile"
+                        screenName="cnnbrk"
+                        options={{height: 400}}
                     />
                   </div>
                 </CardBody>
