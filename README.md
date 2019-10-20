@@ -1,7 +1,10 @@
-Paper Dashboard React
+Cady Baltz, Bryant Hou, Kendra Huang 
 
 
-## Quick start
+# aiTrade 
+A program to help amateur traders make decisions by analyzing twitter headlines from popular news companies as well as various high-influence industry leaders and politicians' tweets. 
+
+We utilized Google Natural Language to determine tweet sentiment from 6 major sources: CNN Breaking News, the Economist, Guardian News, the Washington Post, Joe Weisenthal (co-host, BloombergTV), and Vitalik Buterin (Etherium founder). 
 
 Quick start options:
 
@@ -14,4 +17,7 @@ Quick start options:
 ## Documentation
 The documentation for the Paper Dashboard React is hosted at our [website](https://demos.creative-tim.com/paper-dashboard-react/#/documentation/tutorial).
 
+### Citations
+https://www.nature.com/articles/srep03578
+https://www.nber.org/papers/w18725
 
