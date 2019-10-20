@@ -15,12 +15,8 @@ from google.cloud.language import enums
 from google.cloud.language import types
 
 import random
-
 import time
-
 import os
-
-
 
 all_tweets = []
 url = ['https://twitter.com/realdonaldtrump','https://twitter.com/guardiannews','https://twitter.com/theeconomist','https://twitter.com/washingtonpost','https://twitter.com/thestalwart','https://twitter.com/vitalikbuterin','https://twitter.com/cnnbrk','https://twitter.com/nytimes']
@@ -136,16 +132,6 @@ class Dashboard extends React.Component {
           </Row>
           <Row>
           <Col md="6" sm="6">
-              <Card className="card-stats">
-                <CardBody>
-                <iframe src="https://us.etrade.com/e/t/user/login"
-                frameBorder="0"
-                height="400"
-                width = "100%"></iframe>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md="6" sm="6">
               <Card className="card-stats">
                 <CardBody>
                 <iframe src="https://us.etrade.com/e/t/user/login"
@@ -363,7 +349,7 @@ const dashboardNASDAQChart = {
     ],
     datasets: [
       {
-        data: [""" + url[0] + """,""" + url[1] + """,""" + url[2] + """,""" + url[3] + """,""" + url[4] + """,""" + url[5] + ""","""+ url[6] + """,""" + url[7] + """],
+        data: [""" + str(results[0]) + """,""" + str(results[1]) + """,""" + str(results[2]) + """,""" + str(results[3]) + """,""" + str(results[4]) + """,""" + str(results[5]) + ""","""+ str(results[6]) + """,""" + str(results[7]) + """],
         fill: false,
         borderColor: "#51CACF",
         backgroundColor: "transparent",

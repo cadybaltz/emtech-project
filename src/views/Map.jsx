@@ -41,7 +41,24 @@ class Map extends React.Component {
                   >
                      <TwitterTimelineEmbed
                         sourceType="profile"
-                        screenName="potus"
+                        screenName="realdonaldtrump"
+                        options={{height: 500}}
+                    />
+                  </div>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col lg="3" md="6" sm="6">
+              <Card className="card-stats">
+                <CardBody>
+                  <div
+                    id="map"
+                    className="map"
+                    style={{ position: "relative", overflow: "hidden" }}
+                  >
+                     <TwitterTimelineEmbed
+                        sourceType="profile"
+                        screenName="guardiannews"
                         options={{height: 500}}
                     />
                   </div>
@@ -59,25 +76,7 @@ class Map extends React.Component {
                   >
                      <TwitterTimelineEmbed
                         sourceType="profile"
-                        screenName="cnni"
-                        options={{height: 500}}
-                    />
-                  </div>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col lg="3" md="6" sm="6">
-              <Card className="card-stats">
-                
-                <CardBody>
-                  <div
-                    id="map"
-                    className="map"
-                    style={{ position: "relative", overflow: "hidden" }}
-                  >
-                     <TwitterTimelineEmbed
-                        sourceType="profile"
-                        screenName="TheEconomist"
+                        screenName="theeconomist"
                         options={{height: 500}}
                     />
                   </div>
@@ -112,7 +111,7 @@ class Map extends React.Component {
                   >
                      <TwitterTimelineEmbed
                         sourceType="profile"
-                        screenName="TheStalwart"
+                        screenName="thestalwart"
                         options={{height: 500}}
                     />
                   </div>
