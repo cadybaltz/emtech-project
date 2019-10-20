@@ -1,20 +1,13 @@
 /*!
-
 =========================================================
 * Paper Dashboard React - v1.1.0
 =========================================================
-
 * Product Page: https://www.creative-tim.com/product/paper-dashboard-react
 * Copyright 2019 Creative Tim (https://www.creative-tim.com)
-
 * Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/master/LICENSE.md)
-
 * Coded by Creative Tim
-
 =========================================================
-
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
 */
 const dashboard24HoursPerformanceChart = {
   data: canvas => {
@@ -95,7 +88,7 @@ const dashboard24HoursPerformanceChart = {
             display: false
           },
           ticks: {
-            padding: 20,
+            padding: 0.1,
             fontColor: "#9f9f9f"
           }
         }
@@ -169,32 +162,18 @@ const dashboardEmailStatisticsChart = {
 const dashboardNASDAQChart = {
   data: {
     labels: [
-      "Jan",
-      "Feb",
-      "Mar",
-      "Apr",
-      "May",
-      "Jun",
-      "Jul",
-      "Aug",
-      "Sep",
-      "Oct",
-      "Nov",
-      "Dec"
+      "@realdonaldtrump",
+      "@guardiannews",
+      "@TheEconomist",
+      "@washingtonpost",
+      "@TheStalwart",
+      "@VitalikButerin",
+      "@cnnbrk",
+      "@nytimes"
     ],
     datasets: [
       {
-        data: [0, 19, 15, 20, 30, 40, 40, 50, 25, 30, 50, 70],
-        fill: false,
-        borderColor: "#fbc658",
-        backgroundColor: "transparent",
-        pointBorderColor: "#fbc658",
-        pointRadius: 4,
-        pointHoverRadius: 4,
-        pointBorderWidth: 8
-      },
-      {
-        data: [0, 5, 10, 12, 20, 27, 30, 34, 42, 45, 55, 63],
+        data: [0.7210526293829868,0.5588235300691689,0.5062500030423204,0.44687500363215804,0.4765432140341512,0.5158415889680976,0.49396552184018594,0.4864661696373968],
         fill: false,
         borderColor: "#51CACF",
         backgroundColor: "transparent",
@@ -202,7 +181,7 @@ const dashboardNASDAQChart = {
         pointRadius: 4,
         pointHoverRadius: 4,
         pointBorderWidth: 8
-      }
+      },
     ]
   },
   options: {

@@ -26,12 +26,19 @@ class Footer extends React.Component {
   render() {
     return (
       <footer
-        className={"footer" + (this.props.default ? " footer-default" : "")}
-      >
-        <Container fluid={this.props.fluid ? true : false}>
+      className={"footer" + (this.props.default ? " footer-default" : "")}
+    >
+      <Container fluid={this.props.fluid ? true : false}>
+        <Row>
 
-        </Container>
-      </footer>
+          <div className="credits ml-auto">
+            <div className="copyright">
+              &copy; Created by Yohan Inc.
+            </div>
+          </div>
+        </Row>
+      </Container>
+    </footer>
     );
   }
 }
