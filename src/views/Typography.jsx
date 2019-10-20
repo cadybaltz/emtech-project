@@ -29,28 +29,23 @@ class Typography extends React.Component {
                     <Row>
                         <Col md="12">
                             <Card>
-                                <CardHeader>
-                                    <h5 className="title">About Us</h5>
-                                    <p className="category">
-                                        Created using Montserrat Font Family
-                  </p>
-                                </CardHeader>
+                                
                                 <CardBody>
-                                    <div className="typography-line">
-                                        <h5>
-                                            <span>Header 5</span>
+                                    <div>
+                                        <h2>
+                                            
                                             A New Way to Trade
+                    </h2>
+                                    </div>
+                                    <div>
+                                        <h5>
+                                            
+                                            A new perspective on stock market trading
                     </h5>
                                     </div>
-                                    <div className="typography-line">
-                                        <h6>
-                                            <span>Header 6</span>
-                                            A new perspective on profitting in stock market trading
-                    </h6>
-                                    </div>
-                                    <div className="typography-line">
+                                    <div>
                                         <p>
-                                            <span>What we do</span>Utilizing Google's Sentiment Analysis,
+                                             Utilizing Google's Sentiment Analysis,
                                               this website prompts the user to trade stocks when a positive
                                               Sentiment Analysis rating is given based off of news sources'
                                               reports. We believe that there's a positive correlation between 
@@ -59,6 +54,12 @@ class Typography extends React.Component {
                                              
                     </p>
 
+                                    </div>
+                                    <div>
+                                    <img
+                                    alt="..."
+                                    src={require("assets/img/stocks.jpg")}
+                  />
                                     </div>
                                 </CardBody>
                             </Card>
