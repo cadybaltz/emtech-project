@@ -201,7 +201,7 @@ class Dashboard extends React.Component {
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="10">
+            <Col md="12">
               <Card className="card-chart">
                 <CardHeader>
                   <CardTitle tag="h5">NASDAQ: AAPL</CardTitle>
@@ -210,19 +210,15 @@ class Dashboard extends React.Component {
                 <CardBody>
                   <TradingViewWidget
                    symbol="NASDAQ:AAPL"
-                   theme={Themes.LIGHT}
-                   locale="fr"
+                   //theme={Themes.LIGHT}
+                   //locale="fr"
                    //autosize
-                   width={700}
+                   width={850}
                    height={400}
                    />
                 </CardBody>
                 <CardFooter>
-                  <div className="chart-legend">
-                    <i className="fa fa-circle text-info" /> Tesla Model S{" "}
-                    <i className="fa fa-circle text-warning" /> BMW 5 Series
-                  </div>
-                  <hr />
+
                   <div className="card-stats">
                     <i className="fa fa-check" /> Data information certified
                   </div>

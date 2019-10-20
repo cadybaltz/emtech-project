@@ -26,33 +26,33 @@ import UserPage from "views/User.jsx";
 import UpgradeToPro from "views/Upgrade.jsx";
 
 var routes = [
-  {
-    path: "/dashboard",
-    name: "Home",
-    icon: "nc-icon nc-bank",
-    component: Dashboard,
-    layout: "/admin"
-  },
-  {
-    path: "/icons",
-    name: "About",
-    icon: "nc-icon nc-alert-circle-i",
-    component: Icons,
-    layout: "/admin"
-  },
-  {
-    path: "/maps",
-    name: "News",
-    icon: "nc-icon nc-paper",
-    component: Maps,
-    layout: "/admin"
-  },
-  {
-    path: "/notifications",
-    name: "Statistics",
-    icon: "nc-icon nc-sound-wave",
-    component: Notifications,
-    layout: "/admin"
-  }
+    {
+        path: "/dashboard",
+        name: "Home",
+        icon: "nc-icon nc-bank",
+        component: Dashboard,
+        layout: "/admin"
+    },
+    {
+        path: "/typography",
+        name: "About",
+        icon: "nc-icon nc-alert-circle-i",
+        component: Typography,
+        layout: "/admin"
+    },
+    {
+        path: "/maps",
+        name: "News",
+        icon: "nc-icon nc-paper",
+        component: Maps,
+        layout: "/admin"
+    },
+    {
+        path: "/notifications",
+        name: "Statistics",
+        icon: "nc-icon nc-sound-wave",
+        component: Notifications,
+        layout: "/admin"
+    },
 ];
 export default routes;
