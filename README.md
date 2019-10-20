@@ -18,7 +18,7 @@ Quick start options:
 
 
 ## Documentation
-The documentation for the Paper Dashboard React is hosted at our [website](https://demos.creative-tim.com/paper-dashboard-react/#/documentation/tutorial).
+The documentation for the Paper Dashboard React is hosted at the [website](https://demos.creative-tim.com/paper-dashboard-react/#/documentation/tutorial).
 
 ### Citations
 https://www.nature.com/articles/srep03578
