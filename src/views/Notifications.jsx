@@ -37,6 +37,8 @@ import {
   dashboardNASDAQChart
 } from "variables/charts.jsx";
 
+import TradingViewWidget, { Themes } from 'react-tradingview-widget';
+
 class Dashboard extends React.Component {
   render() {
     return (
