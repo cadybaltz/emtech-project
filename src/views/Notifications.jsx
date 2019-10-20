@@ -199,19 +199,21 @@ class Dashboard extends React.Component {
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="8">
+            <Col md="10">
               <Card className="card-chart">
                 <CardHeader>
                   <CardTitle tag="h5">NASDAQ: AAPL</CardTitle>
-                  <p className="card-category">Line Chart with Points</p>
+                  <p className="card-category">Live NASDAQ Updates</p>
                 </CardHeader>
                 <CardBody>
-                  <Line
-                    data={dashboardNASDAQChart.data}
-                    options={dashboardNASDAQChart.options}
-                    width={400}
-                    height={100}
-                  />
+                  <TradingViewWidget
+                   symbol="NASDAQ:AAPL"
+                   theme={Themes.LIGHT}
+                   locale="fr"
+                   //autosize
+                   width={700}
+                   height={400}
+                   />
                 </CardBody>
                 <CardFooter>
                   <div className="chart-legend">
