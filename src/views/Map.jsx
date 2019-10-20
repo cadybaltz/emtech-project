@@ -30,9 +30,9 @@ class Map extends React.Component {
         <div className="content">
         
           <Row>
-            <Col md="12">
-              <Card>
-                <CardHeader>News</CardHeader>
+            <Col lg="3" md="6" sm="6">
+              <Card className="card-stats">
+                
                 <CardBody>
                   <div
                     id="map"
@@ -42,13 +42,15 @@ class Map extends React.Component {
                      <TwitterTimelineEmbed
                         sourceType="profile"
                         screenName="potus"
-                        options={{height: 400}}
+                        options={{height: 500}}
                     />
                   </div>
                 </CardBody>
               </Card>
-              <Card>
-                <CardHeader>News</CardHeader>
+            </Col>
+            <Col lg="3" md="6" sm="6">
+              <Card className="card-stats">
+                
                 <CardBody>
                   <div
                     id="map"
@@ -58,13 +60,15 @@ class Map extends React.Component {
                      <TwitterTimelineEmbed
                         sourceType="profile"
                         screenName="cnni"
-                        options={{height: 400}}
+                        options={{height: 500}}
                     />
                   </div>
                 </CardBody>
               </Card>
-              <Card>
-                <CardHeader>News</CardHeader>
+            </Col>
+            <Col lg="3" md="6" sm="6">
+              <Card className="card-stats">
+                
                 <CardBody>
                   <div
                     id="map"
@@ -74,13 +78,15 @@ class Map extends React.Component {
                      <TwitterTimelineEmbed
                         sourceType="profile"
                         screenName="TheEconomist"
-                        options={{height: 400}}
+                        options={{height: 500}}
                     />
                   </div>
                 </CardBody>
               </Card>
-              <Card>
-                <CardHeader>News</CardHeader>
+            </Col>
+            <Col lg="3" md="6" sm="6">
+              <Card className="card-stats">
+                
                 <CardBody>
                   <div
                     id="map"
@@ -89,30 +95,15 @@ class Map extends React.Component {
                   >
                      <TwitterTimelineEmbed
                         sourceType="profile"
-                        screenName="guardiannews"
-                        options={{height: 400}}
+                        screenName="washingtonpost"
+                        options={{height: 500}}
                     />
                   </div>
                 </CardBody>
               </Card>
-              <Card>
-                <CardHeader>News</CardHeader>
-                <CardBody>
-                  <div
-                    id="map"
-                    className="map"
-                    style={{ position: "relative", overflow: "hidden" }}
-                  >
-                     <TwitterTimelineEmbed
-                        sourceType="profile"
-                        screenName="washingtonposts"
-                        options={{height: 400}}
-                    />
-                  </div>
-                </CardBody>
-              </Card>
-              <Card>
-                <CardHeader>News</CardHeader>
+            </Col>
+            <Col lg="3" md="6" sm="6">
+              <Card className="card-stats">
                 <CardBody>
                   <div
                     id="map"
@@ -122,13 +113,15 @@ class Map extends React.Component {
                      <TwitterTimelineEmbed
                         sourceType="profile"
                         screenName="TheStalwart"
-                        options={{height: 400}}
+                        options={{height: 500}}
                     />
                   </div>
                 </CardBody>
               </Card>
-              <Card>
-                <CardHeader>News</CardHeader>
+            </Col>
+            <Col lg="3" md="6" sm="6">
+              <Card className="card-stats">
+                
                 <CardBody>
                   <div
                     id="map"
@@ -137,14 +130,16 @@ class Map extends React.Component {
                   >
                      <TwitterTimelineEmbed
                         sourceType="profile"
-                        screenName="VitalikButerin"
-                        options={{height: 400}}
+                        screenName="vitalikbuterin"
+                        options={{height: 500}}
                     />
                   </div>
                 </CardBody>
               </Card>
-              <Card>
-                <CardHeader>News</CardHeader>
+            </Col>
+            <Col lg="3" md="6" sm="6">
+              <Card className="card-stats">
+                
                 <CardBody>
                   <div
                     id="map"
@@ -154,7 +149,25 @@ class Map extends React.Component {
                      <TwitterTimelineEmbed
                         sourceType="profile"
                         screenName="cnnbrk"
-                        options={{height: 400}}
+                        options={{height: 500}}
+                    />
+                  </div>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col lg="3" md="6" sm="6">
+              <Card className="card-stats">
+                
+                <CardBody>
+                  <div
+                    id="map"
+                    className="map"
+                    style={{ position: "relative", overflow: "hidden" }}
+                  >
+                     <TwitterTimelineEmbed
+                        sourceType="profile"
+                        screenName="nytimes"
+                        options={{height: 500}}
                     />
                   </div>
                 </CardBody>
